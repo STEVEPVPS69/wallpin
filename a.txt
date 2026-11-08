@@ -1,1 +1,1 @@
-
+Start-Process powershell.exe -ArgumentList '-NoExit -Command "Write-Host ''You have been pwned!'' -ForegroundColor Red"'
